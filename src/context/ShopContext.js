@@ -19,7 +19,7 @@
             
             return(
                 <ShopContext.Provider
-                 value={{...this.state.Products}}>
+                 value={{...this.state}}>
                    {this.props.children}
                 </ShopContext.Provider>
             );
